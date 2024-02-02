@@ -12,10 +12,9 @@
     </ul>
     <ul class="flex items-center"> <!-- Added "items-center" class for centering items -->
         <li class="flex content-center mr-2 md:mr-5 py-1 px-4 bg-dilim border-slate-50 border-[rgba(255,255,255,.4)] border rounded">
-            <label class="sm:hidden" for="lang">Lang</label>
             <select class="bg-dilim border-0 outline-none" id="lang" name="lang">
                 {#each langs as lang}
-                    <option value="{lang}" class="hidden">{lang}</option>
+                    <option value="{lang}">{lang}</option>
                 {/each}
             </select>
         </li>
